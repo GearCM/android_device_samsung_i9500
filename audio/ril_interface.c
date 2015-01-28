@@ -60,7 +60,7 @@ static int ril_set_wb_amr_callback(void *ril_client,
 {
     int enable = ((int *)data)[0];
 
-    if (!callback_data || !_audio_set_wb_amr_callback)
+    if (!callback_data || _audio_set_wb_amr_callback)
         return -1;
 
     _audio_set_wb_amr_callback(callback_data, enable);

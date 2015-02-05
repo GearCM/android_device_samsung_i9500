@@ -652,7 +652,7 @@ service bootsnd /system/bin/tinyplay /system/etc/sound/silence.wav -D 0 -d 0 -p 
 # MobiCore
 service mobicore /system/bin/mcDriverDaemon \
 	-r /system/vendor/firmware/mcRegistry/FFFFFFFF000000000000000000000001.drbin \
-	-r /system/vendor/firmware/mcRegistry/ffffffffd0000000000000000000000a.tlbin
+	-r /system/vendor/firmware/mcRegistry/ffffffffd0000000000000000000000a.tlbin \
 	setenv MC_REGISTRY_PATH /system/vendor/firmware/mcRegistry
 	class main
 	user drmrpc

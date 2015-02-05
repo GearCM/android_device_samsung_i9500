@@ -719,8 +719,8 @@ on property:sys.perf.profile=2
 	write /sys/devices/system/cpu/cpu1/cpufreq/scaling_governor performance
 	write /sys/devices/system/cpu/cpu2/cpufreq/scaling_governor performance
 	write /sys/devices/system/cpu/cpu3/cpufreq/scaling_governor performance
-	write /sys/devices/platform/pvrsrvkm.0/sgx_dvfs_min_lock 532
+	write /sys/devices/platform/pvrsrvkm.0/sgx_dvfs_min_lock 480
 	write /sys/devices/platform/pvrsrvkm.0/sgx_dvfs_max_lock 532
-	write /sys/class/devfreq/exynos5-busfreq-mif/min_freq 800000
+	write /sys/class/devfreq/exynos5-busfreq-mif/min_freq 600000
 	write /sys/class/devfreq/exynos5-busfreq-mif/max_freq 800000
 	write /sys/class/thermal/thermal_zone0/boost_mode 2

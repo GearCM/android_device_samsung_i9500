@@ -70,6 +70,9 @@ TARGET_BOOTANIMATION_TEXTURE_CACHE := true
 # ANT+
 BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
 
+# DRM
+USE_NORMAL_DRM := true
+
 # Enable Minikin text layout engine (will be the default soon)
 USE_MINIKIN := true
 

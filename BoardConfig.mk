@@ -56,6 +56,7 @@ TARGET_KERNEL_SOURCE := kernel/samsung/exynos5410
 
 # Audio
 BOARD_HAVE_PRE_KITKAT_AUDIO_POLICY_BLOB := true
+BOARD_USES_LEGACY_ALSA_AUDIO := true
 
 # Bluetooth
 BOARD_HAVE_BLUETOOTH := true

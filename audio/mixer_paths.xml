@@ -4,7 +4,7 @@
     <ctl name="Speaker Digital Volume" value="128" />
     <ctl name="Speaker High Performance Switch" value="0" />
 
-    <ctl name="DSP Virtual Output Mux" value="None" />
+    <ctl name="DSP Virtual Output Mix" value="None" />
     <ctl name="DSP1 Aux 1" value="None" />
     <ctl name="DSP1 Aux 2" value="None" />
     <ctl name="DSP1 Aux 3" value="None" />

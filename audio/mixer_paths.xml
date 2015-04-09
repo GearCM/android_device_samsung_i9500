@@ -12,7 +12,7 @@
     <ctl name="DSP1 Aux 5" value="None" />
     <ctl name="DSP1 Aux 6" value="None" />
     <ctl name="DSP1 Firmware" value="MBC/VSS" />
-    <ctl name="DSP1 Rate" value="SYNCCLK rate 1" />
+    <ctl name="DSP1 Rate" value="SYNCCLK rate" />
 
     <ctl name="DSP1L Input 1" value="None" />
     <ctl name="DSP1L Input 1 Volume" value="32" />
@@ -261,7 +261,7 @@
     <ctl name="EQ4 Input 3" value="None" />
     <ctl name="EQ4 Input 4" value="None" />
 
-    <ctl name="FX Rate" value="SYNCCLK rate 1" />
+    <ctl name="FX Rate" value="SYNCCLK rate" />
 
     <ctl name="HDMI Switch" value="0" />
 
@@ -371,14 +371,14 @@
     <ctl name="IN3R Volume" value="0" />
     <ctl name="IN3R Digital Volume" value="30" />
 
-    <ctl name="ISRC1 FSL" value="SYNCCLK rate 1" />
+    <ctl name="ISRC1 FSL" value="SYNCCLK rate" />
 
     <ctl name="ISRC1DEC1 Input" value="None" />
     <ctl name="ISRC1DEC2 Input" value="None" />
     <ctl name="ISRC1INT1 Input" value="None" />
     <ctl name="ISRC1INT2 Input" value="None" />
 
-    <ctl name="ISRC2 FSL" value="SYNCCLK rate 1" />
+    <ctl name="ISRC2 FSL" value="SYNCCLK rate" />
 
     <ctl name="ISRC2DEC1 Input" value="None" />
     <ctl name="ISRC2DEC2 Input" value="None" />

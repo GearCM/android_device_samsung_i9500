@@ -1046,8 +1046,8 @@
     </path>
 
     <path name="volume-back-mic-incall">
-      <ctl name="IN2L Volume" value="17" />
-      <ctl name="IN2L Digital Volume" value="128" />
+      <ctl name="IN2L Volume" value="15" />
+      <ctl name="IN2L Digital Volume" value="112" />
       <ctl name="LHPF2 Input 1 Volume" value="32" />
     </path>
 

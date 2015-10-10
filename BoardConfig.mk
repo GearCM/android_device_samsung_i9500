@@ -44,10 +44,6 @@ TARGET_CPU_ABI := armeabi-v7a
 TARGET_CPU_ABI2 := armeabi
 TARGET_CPU_VARIANT := cortex-a15
 
-# Compiler Tweaks
-#BOARD_GLOBAL_CFLAGS += -mtune=cortex-a15.cortex-a7
-#BOARD_GLOBAL_CPPFLAGS += -mtune=cortex-a15.cortex-a7
-
 # Kernel
 BOARD_KERNEL_BASE := 0x10000000
 BOARD_KERNEL_PAGESIZE := 2048
@@ -58,7 +54,6 @@ TARGET_KERNEL_SOURCE := kernel/samsung/exynos5410
 BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
 
 # Audio
-BOARD_HAVE_PRE_KITKAT_AUDIO_POLICY_BLOB := true
 COMMON_GLOBAL_CFLAGS += -DSAMPLE_RATE_48K
 
 # Boot Animation

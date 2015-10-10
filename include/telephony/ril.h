@@ -5050,6 +5050,7 @@ typedef struct {
 #define RIL_UNSOL_MIP_CONNECT_STATUS 11053
 
 /* SNDMGR */
+
 #define RIL_UNSOL_SNDMGR_WB_AMR_REPORT 20017
 
 /***********************************************************************/

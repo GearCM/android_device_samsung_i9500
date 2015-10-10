@@ -90,7 +90,7 @@ int ril_open(struct ril_handle *ril)
 
     /* register the wideband AMR callback */
     RegisterUnsolicitedHandler(ril->client,
-                               RIL_UNSOL_SNDMGR_WB_AMR_REPORT,
+                               RIL_UNSOL_WB_AMR_STATE,
                                (RilOnUnsolicited)ril_set_wb_amr_callback);
 
     property_get(VOLUME_STEPS_PROPERTY, property, VOLUME_STEPS_DEFAULT);

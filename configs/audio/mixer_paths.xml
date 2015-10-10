@@ -931,8 +931,8 @@
     </path>
 
     <path name="volume-builtin-mic-incall">
-      <ctl name="IN1L Volume" value="24" />
-      <ctl name="IN1L Digital Volume" value="128" />
+      <ctl name="IN1L Volume" value="30" />
+      <ctl name="IN1L Digital Volume" value="134" />
     </path>
 
     <!--
@@ -979,8 +979,8 @@
     </path>
 
     <path name="volume-back-mic-incall">
-      <ctl name="IN2L Volume" value="23" />
-      <ctl name="IN2L Digital Volume" value="142" />
+      <ctl name="IN2L Volume" value="30" />
+      <ctl name="IN2L Digital Volume" value="134" />
     </path>
 
     <!--
@@ -1055,7 +1055,7 @@
 
     <path name="volume-third-mic-default">
       <ctl name="IN2R Volume" value="30" />
-      <ctl name="IN2R Digital Volume" value="124" />
+      <ctl name="IN2R Digital Volume" value="134" />
     </path>
 
     <!--
@@ -1098,13 +1098,13 @@
     <!-- ### Volume ### -->
 
     <path name="volume-headset-in-default">
-      <ctl name="IN1R Volume" value="16" />
-      <ctl name="IN1R Digital Volume" value="128" />
+      <ctl name="IN1R Volume" value="30" />
+      <ctl name="IN1R Digital Volume" value="134" />
     </path>
 
     <path name="volume-headset-in-incall">
-      <ctl name="IN1R Volume" value="18" />
-      <ctl name="IN1R Digital Volume" value="128" />
+      <ctl name="IN1R Volume" value="30" />
+      <ctl name="IN1R Digital Volume" value="134" />
       <ctl name="HPOUT1L Input 3 Volume" value="9" />
       <ctl name="HPOUT1R Input 3 Volume" value="9" />
     </path>

@@ -156,6 +156,14 @@ PRODUCT_COPY_FILES += \
 
 # OMX
 PRODUCT_PACKAGES += \
+	libExynosOMX_Core \
+	libOMX.Exynos.MPEG4.Decoder \
+	libOMX.Exynos.AVC.Decoder \
+	libOMX.Exynos.H263.Decoder \
+	libOMX.Exynos.VP8.Decoder \
+	libOMX.Exynos.MPEG4.Encoder \
+	libOMX.Exynos.AVC.Encoder \
+	libOMX.Exynos.H263.Encoder \
 	libstagefrighthw
 
 # Extra Apps
